@@ -1,0 +1,73 @@
+.container {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #43aefc;
+  overflow: hidden;
+}
+
+.cards {
+  border-radius: 6px;
+  height: 270px;
+  width: 330px;
+  background-color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-box {
+  margin-top: 30px;
+  height: 25px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 600;
+   border: 0.3px solid;
+  border-radius: 3px;
+  padding: 8px;
+  width: 260px;
+  border-color: rgb(191, 194, 194);
+}
+.form-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.app-name {
+  padding: 16px;
+  border-bottom: 2px solid rgb(211, 206, 206);
+  color: #43aefc;
+  font-weight: 800;
+  text-align: start;
+  font-size: 20px;
+}
+
+.location-button {
+  padding: 15px;
+  text-align: center;
+  font-weight: 700;
+  width: 272px;
+  background-color: #43aefc;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  cursor: pointer;
+}
+
+.or-feild {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  outline: 1px;
+}
+
+input:focus{
+    outline: none;
+}
+
+input{
+    color: rgb(122, 51, 51);
+}
+

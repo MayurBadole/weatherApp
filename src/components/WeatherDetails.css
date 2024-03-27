@@ -1,0 +1,162 @@
+.container {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #43aefc;
+  overflow: hidden;
+}
+
+.details-cards {
+  border-radius: 2%;
+  height: max-content;
+  width: 400px;
+  background-color: white;
+  text-align: center;
+}
+
+.weather-app {
+  display: flex;
+  flex-direction: row;
+  color: #65bbf8;
+  border-bottom: 2px solid rgb(227, 224, 224);
+  font-weight: 800;
+  text-align: start;
+  font-size: 20px;
+}
+
+.name-app {
+  margin-left: 25px;
+}
+.weather-degree {
+  font-size: 45px;
+  margin: 0;
+  font-weight: 800;
+}
+.city-name {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 500;
+}
+.location-icon {
+  position: relative;
+  left: -55px;
+  top: 22px;
+}
+.weather-description {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 500;
+}
+.weather-img {
+  height: 40%;
+  width: 40%;
+}
+
+.water-drop {
+  height: 30px;
+  width: 30px;
+}
+
+.footer-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+ 
+
+.huminityPer {
+  margin: 0;
+  text-align: start;
+  font-weight: 700;
+}
+.huminity-name {
+  margin: 0;
+  font-size: 12px;
+  font-weight: 500;
+}
+#left-box {
+  border-right: 2px solid rgb(206, 201, 201);
+}
+.temp {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  border-top: 2px solid rgb(206, 201, 201);
+  padding: 10px;
+  gap: 7px;
+}
+
+.temp-icon {
+  height: 35px;
+  width: 30px;
+}
+.tempPer {
+  margin: 0;
+  text-align: start;
+  font-weight: 700;
+}
+.temp-name {
+  margin: 0;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.loader {
+  border: 4px solid rgba(0, 0, 0, 0.1);
+  border-left-color: #3498db;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+  margin: 50px auto;
+  margin-top: 225px;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.pageNotFOund {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  margin-top: 250px;
+}
+.dataNotFound {
+  font-size: 50px;
+  color: black;
+}
+
+.prevButton {
+  cursor: pointer;
+  margin-left: 20px;
+  font-size: 30px;
+  margin-top: 18px;
+}
+
+.goBackButton{
+    cursor: pointer;
+    margin-left: 20px;
+    font-size: 25px;
+    padding: 15px;
+    margin-top: 18px;
+    width: 280px;
+    border-radius: 5px;
+    border: none;
+    background-color: #3498db;
+    color: white;
+  margin-left: 630px;
+}
